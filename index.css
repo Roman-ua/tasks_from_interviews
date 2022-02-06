@@ -9,25 +9,25 @@ body {
     justify-content: center;
     min-height: 95vh;
 }
-#second_title {
+#second_title, #title {
     font-size: 50px;
     font-weight: normal;
     color: white;
 }
-#second_data {
+#second_data, #data {
     color: white;
     font-size: 40px;
     margin-bottom: 1%;
     font-weight: lighter;
 }
-#second_output {
+#second_output, #output {
     color: white;
     font-size: 40px;
     margin-bottom: 5%;
     font-weight: normal;
     letter-spacing: 20px;
 }
-#second_preparation_data {
+#second_preparation_data, #preparation_data {
     padding: 20px 40px;
     border-radius: 6px;
     border: none;
@@ -37,7 +37,7 @@ body {
     transition: all .5s;
     cursor: pointer;
 }
-#second_preparation_data:hover {
+#second_preparation_data:hover, #preparation_data:hover {
     background-color: #e953da;
     box-shadow: #f5c1f0 0 0 25px 0;
     transition: all .5s;
@@ -52,7 +52,7 @@ body {
     display: inline-block;
     margin-right: 10px;
 }
-#second_screen_input {
+#second_screen_input, #screen_input {
     font-size: 20px;
     border-radius: 6px;
     border: none;
